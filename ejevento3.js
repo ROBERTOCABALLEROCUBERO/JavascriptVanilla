@@ -1,4 +1,3 @@
-let windows3 = document.getElementById("IEWindows");
 let arrayevt = [
   "IEWindows",
   "IEMac",
@@ -13,7 +12,8 @@ let array2 = [
 ]
 
 arrayevt.forEach((element) => {
-  element.addEventListener("click", function () {
+  
+    document.getElementById(element).addEventListener("click", function () {
     if (document.getElementById(element).checked) {
         array2.forEach(dato => {
             if(element.includes("Windows")){
