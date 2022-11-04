@@ -1,0 +1,16 @@
+#estela1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    z-index: 1; 
+    position: absolute;
+}
+
+#estela2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    z-index: 0;
+    position: absolute;
+    left: 200px;
+}
