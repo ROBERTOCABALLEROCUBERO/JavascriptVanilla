@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> <link rel="stylesheet" href="error.css">
+    <script src="Validacion.js"></script>
+</head>
+<body>
+    <label for="">Nombre:</label>
+    <input type="text" required minlength="5" maxlength="50">
+    <span id="error" class="error"></span>
+    <br>
+    <button id="comprueba">Comprueba</button>
+    <p>checkvalidity: <span id="checkValidity"></span></p>
+    <p>validationMessage <span id="validationMessage"></span></p>
+    <p>validity.valueMissing: <span id="valueMissing"></span></p>
+    <p>validity.tooshort: <span id="tooshort"></span></p>
+    <p>validity.tooLong <span id="tooLong"></span></p>
+
+</body>
+</html>
