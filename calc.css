@@ -1,0 +1,19 @@
+BODY { 
+  color: #000;
+  background: #ddd;
+  font-family: verdana, helvetica, sans-serif;
+}
+
+.boton {
+  text-align: center;
+  width: 35px;
+  height: 25px;
+}
+
+.numero{
+  background-color: red;
+}
+
+.display {
+  text-align:right;
+}
