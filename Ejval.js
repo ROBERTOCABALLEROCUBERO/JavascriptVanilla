@@ -6,8 +6,7 @@ window.addEventListener("load", () =>
       formularios[0].validationMessage;
 
     if (
-      (document.getElementById("respuesta1").innerHTML =
-        formularios[1].checkValidity() == false)
+      formularios[1].checkValidity() == false
     ) {
       document.getElementById("respuesta1").textContent =
         "El email no es válido";
