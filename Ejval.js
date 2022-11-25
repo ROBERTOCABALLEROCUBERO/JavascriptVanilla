@@ -1,5 +1,4 @@
-window.addEventListener("load", () =>
-  document.getElementById("comprueba").addEventListener("click", () => {
+window.addEventListener("load", () =>document.getElementById("comprueba").addEventListener("click", () => {
     let formularios = document.getElementsByTagName("input");
 
     document.getElementById("respuesta0").innerHTML =

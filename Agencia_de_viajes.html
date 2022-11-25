@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="Viajes.js"></script>
+</head>
+<body>
+    
+<h1>Agencia de Viajes</h1>
+<p>Rellene los siguientes campos para poder comprar el/los billete/s</p>
+
+<form action="Viajes.js"> 
+<label for=""><b>Nombre</b></label> <input type="text" name="" id="nombre"><span id="resultado0"></span>
+<label for=""><b>Apellido</b></label> <input type="text" name="" id="apellido"><span id="resultado1"></span><br>
+<legend for=""><b>Sexo:</b></legend> <label> <input type="radio" name="color" value="azul" checked>Hombre</label><label><input type="radio" name="color" value="negro"> Mujer</label>
+<label for=""><b>Numero de telefono:</b> </label> <input type="tel" id="telefono" pattern="[0-9]{9}" required><span id="resultado2"></span><br>
+<label for=""><b>Dni:</b></label> <input type="text" pattern="[0-9]{8}[A-Za-z]{1}" required><span></span> 
+<label for="">Medio Transporte</label><label for="">Choose a car:</label>
+<select id="Transporte" name="" form="">
+  <option value="Tren">Tren</option>
+  <option value="Autobus">Autobus</option>
+  <option value="Barco">Barco</option>
+</select>
+
+
+
+
+</form>
+
+
+</body>
+</html>
